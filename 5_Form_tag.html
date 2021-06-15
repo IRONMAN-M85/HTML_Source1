@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form tag</title>
+</head>
+
+<body>
+    <!-- form tag is used to take input from user -->
+    <div>
+        <h1>form tag begins wit 14 line number</h1>
+        <form>
+            <!--action is a attribute in which we link our document with another file like file_name.php through which we can control the user input ..here php document is an backend-->
+            <h1>Form Example</h1>
+            <input type="text" placeholder="Enter any text"> <br>
+            <label for="section_a">
+                <!--for ma lekhey ko kura id hunxa -->
+                <input type="radio" value="section a" name="section" id="section_a">section a
+            </label>
+            <label for="section_b">
+                <input type="radio" value="section b" name="section" id="section_b">section b
+            </label>
+
+            <!--yaha name same bhaye ra ini haru bata kunai eeuta active hunxa so option banauda kam lagxa-->
+            <!--label ko for ma jey haley ko xu tyo id ho so id harek ko eeuta unique hunxa ra tyhe mention garnu parxa-->
+            <br>
+            <!--checkbox below-->
+            <label for="section_c">
+                <input type="checkbox" name="section" id="section_c">section c
+            </label>
+            <label for="Section_d">
+                <input type="checkbox" name="section" id="section_d">section d
+                <!--class input ma thapna sakinxa-->
+            </label>
+            <!--so we saw that radio lai checkbox bata hami link garna sakina name same bhayera niiii and even checkbox category lai radio jasto use garna sakdainau-->
+            <hr>
+            <br>
+            <h1>Text area tag</h1>
+            <textarea name="input" id="input0" cols="50" rows="15" placeholder="write here"></textarea>
+            <hr>
+            <br>
+
+            <h1>select tag begins from line 46</h1>
+            <select name="car" id="car">
+                <option value="no-things">select car</option>
+                <option value="rolls">rolls royace</option>
+                <option value="range">Range rover</option>
+                <option value="bmw">BMW</option>
+            </select>
+        </form>
+    </div>
+    <p>Note : Id is an unique identifier whereas class is group which is specially used to make easy for css <br> name assign garney main karan yo ho ki backend ma use garna sajilo hoss</p>
+</body>
+
+</html>

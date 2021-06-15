@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Tags</title>
+</head>
+
+<body>
+    <p><b>{tr , td , th}</b> = { Table row , Table data , Table Headers}</p>
+
+    <h2>table begins from line 14</h2>
+    <div>
+        <table>
+            <caption>
+                row examples and this is caption tag for table
+            </caption>
+            <thead>
+                <tr>
+                    <th>row1</th>
+                    <th>row2</th>
+                    <th>row3</th>
+                    <th>row4</th>
+                    <th>row5</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>row1data1</td>
+                    <td>row2data1</td>
+                    <td>row3data1</td>
+                    <td>row4data1</td>
+                    <td>row5data1</td>
+                </tr>
+                <tr>
+                    <td>row1data2</td>
+                    <td>row2data2</td>
+                    <td>row3data2</td>
+                    <td>row4data2</td>
+                    <td>row5data2</td>
+                </tr>
+                <tr>
+                    <td>row1data3</td>
+                    <td>row2data3</td>
+                    <td>row3data3</td>
+                    <td>row4data3</td>
+                    <td>row5data3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <table>
+            <thead>
+                <>
+                    <th>Row 1</th>
+                    <th>Row 2</th>
+                    <th colspan="2">Row 3</th>
+                    <!--colspan attribute ley eeuta head row lai 2 eeuta ma split gardinxa-->
+                    </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>data 1</td>
+                    <td>data 2</td>
+                    <td>data 3</td>
+                    <td>data 3_split_colspan</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
